@@ -32,7 +32,7 @@ function reverse ( str )
   // return str.split('').reduce((reversed, c) => {
   //   return c + reversed;
   // },'');
-  // str.splt('').reduce((rev, char) => char + rev, '');
+  // str.split('').reduce((rev, char) => char + rev, '');
 
 }
 
