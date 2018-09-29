@@ -30,7 +30,7 @@
 function kangaroo(x1, v1, x2, v2) {
     let sumK1 = x1 + v1;
     let sumK2 = x2 + v2;
-    if (v1 < v2)
+    if (v1 <= v2)
         return 'NO';
     while (sumK1 < sumK2) {
         sumK1 = sumK1 + v1;
