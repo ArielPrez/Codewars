@@ -14,19 +14,31 @@
 
 function fizzBuzz(n) {
   // // MY SOLUTION #1:
-  let conter = 1;
-  while (conter<=n) {
-    if(conter % 3 === 0 && conter % 5 === 0)
-      console.log('fizzbuzz');
-    else if(conter % 3 === 0)
-      console.log('fizz');
-    else if(conter % 5 === 0)
-      console.log('buzz');
-    else
-      console.log(conter);
-    conter++;
-  }
+  // let conter = 1;
+  // while (conter<=n) {
+  //   if(conter % 3 === 0 && conter % 5 === 0)
+  //     console.log('fizzbuzz');
+  //   else if(conter % 3 === 0)
+  //     console.log('fizz');
+  //   else if(conter % 5 === 0)
+  //     console.log('buzz');
+  //   else
+  //     console.log(conter);
+  //   conter++;
+  // }
   // console.log(n);
-}
 
+  // // SOLUTION #1:
+  for (let i = 1; i <= n; i++) {
+    if(i % 3 === 0 && i % 5 === 0){
+      console.log('fizzbuzz');
+    }else if(i % 3 === 0){
+      console.log('fizz');
+    }else if(i % 5 === 0){
+      console.log('buzz');
+    }else{
+      console.log(i);
+    }
+  }
+}
 module.exports = fizzBuzz;
